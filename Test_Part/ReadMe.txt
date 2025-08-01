@@ -1,0 +1,4 @@
+测试部分使用Pytorch框架书写
+是为了便于和Pytorch版本的HiSD进行契合
+因此可以考虑先在Jittor环境下生成图像后再切换至Pytorch环境进行测试
+文件夹内部提供的data.py和utils.py相较于官方实现进行了改动
