@@ -1,6 +1,8 @@
 # HiSD-Jittor
 HiSD implementation based on Jittor  
 
+The examples in Samples are the results of sampling after training in the HiSD official experimental architecture. These images may have undergone sample enhancement processing such as color perturbation and rotation.
+
 [CheckPoint For Jittor Version on 128×128 images](https://drive.google.com/file/d/1UD7pFR8yMLg6bwfLGcWK8EN1wNoSF5NI/view?usp=sharing)  
 
 [CheckPoint For Pytorch Version on 128×128 images](https://drive.google.com/file/d/1AIye0Gs16cepKiyLaalzlCcJNzKEoot5/view?usp=sharing)
