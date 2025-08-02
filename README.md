@@ -17,7 +17,6 @@ Dis_Loss_Adv
 In order to facilitate the observation of the gap, all Gen-Losses are drawn from the 20Kth batch.
 
 This table shows the average of each Gen-Loss on the first 10K batches  
-
 |  | Gen_Loss_Adv | Gen_Loss_Sty |Gen_Loss_Rec|
 |--------|--------|--------|--------|
 | Pytorch  | 21.046  | 2.236  |1.632|
@@ -29,5 +28,5 @@ Gen_Loss_Adv
 Gen_Loss_Sty  
 ![Dis_Loss_Adv](Experiment_log/Gen_Loss_Sty.png)
 
-Gen_Loss_Rec
+Gen_Loss_Rec  
 ![Dis_Loss_Adv](Experiment_log/Gen_Loss_Rec.png)
