@@ -13,3 +13,11 @@ Time Lines
 
 Dis_Loss_Adv
 ![Dis_Loss_Adv](Experiment_log/Dis_Loss_Adv.png)
+
+In order to facilitate the observation of the gap, all Gen-Losses are drawn from the 20Kth batch.
+
+This table shows the average of each Gen-Loss on the first 10K batches
+|  | Gen_Loss_Adv | Gen_Loss_Sty |Gen_Loss_Rec|
+|--------|--------|--------|--------|
+| Pytorch  | 21.046  | 2.236  |1.632|
+| Jittor | 582.015  | 13.116  |3.017|
