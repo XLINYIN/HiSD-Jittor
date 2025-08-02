@@ -1,4 +1,9 @@
-测试部分使用Pytorch框架书写
+FID与PPL的测试部分使用Pytorch框架书写
 是为了便于和Pytorch版本的HiSD进行契合
+同时避免同时安装Jittor和Pytorch造成Numpy不稳定产生的一系列问题
+
 因此可以考虑先在Jittor环境下生成图像后再切换至Pytorch环境进行测试
-文件夹内部提供的data.py和utils.py相较于官方实现进行了改动
+文件夹内提供的所有Generation都是Jittor代码，和train部分结合使用
+
+文件夹内部提供的data.py和utils.py是为Pytorch版本的图像生成和测验服务的
+相较于官方实现进行了改动
