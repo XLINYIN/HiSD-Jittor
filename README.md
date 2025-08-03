@@ -1,5 +1,5 @@
 # HiSD-Jittor
-HiSD implementation based on Jittor  
+[HiSD](https://github.com/imlixinyang/HiSD) implementation based on Jittor  
 
 The examples in Samples are the results of sampling after training in the HiSD official experimental architecture. These images may have undergone sample enhancement processing such as color perturbation and rotation.
 
