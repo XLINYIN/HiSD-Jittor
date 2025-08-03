@@ -7,7 +7,7 @@ The examples in Samples are the results of sampling after training in the HiSD o
 
 [CheckPoint For Pytorch Version on 128×128 images](https://drive.google.com/file/d/1AIye0Gs16cepKiyLaalzlCcJNzKEoot5/view?usp=sharing)
 
-## 🚀 Quick Start
+##  Quick Start
 
 This repository has simplified the training code to make it easily executable within an IDE. Please review and follow the steps below carefully before starting:
 
@@ -34,8 +34,8 @@ This repository has simplified the training code to make it easily executable wi
 - This script will create several text files that define image indexes for **each tag and its corresponding attributes**.
 - You can modify the script to specify:
   - Which tags/attributes to include
-  - Which irrelevant labels to ignore
-- ⚠️ Make sure the tag and attribute information stays **synchronized with your YAML config files** to avoid inconsistencies during training.
+  - Which irrelevant labels to consider
+- Make sure the tag and attribute information stays **synchronized with your YAML config files** to avoid inconsistencies during training.
 
 ### 4. Entry Point
 
